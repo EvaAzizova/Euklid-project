@@ -1,0 +1,193 @@
+@media (max-width: 1919px) {
+    .container {
+        width: 100%;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    /* HERO */
+
+    .swiper-container {
+        max-width: calc(100% - 100px);
+        left: 50px;
+        overflow: hidden;
+    }
+
+    .section-hero__container {
+        height: 668px;
+    }
+
+    .hero-content {
+        padding: 160px 77px 160px 77px;
+        min-width: auto;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        z-index: 100;
+    }
+
+    .section-hero__title {
+        font-size: 60px;
+        line-height: 73px;
+    }
+
+    .section-hero__descr {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .hero__swiper-slide1 {
+        background-image: url(../img/balconies.jpg);
+    }
+
+    /* ABOUT US */
+
+    .section-about-us__column {
+        width: auto;
+        height: auto;
+    }
+
+    .section-about-us__list {
+        flex-direction: column;
+    }
+
+    .section-about-us__article,
+    .section-about-us__article2 {
+        padding: 48px 123px 65px 309px;
+        background-position: bottom 77px left 74px;
+        background-size: 185px;
+    }
+
+    .section-about-us__article {
+        height: auto;
+    }
+
+    .section-about-us__article1 {
+        margin-bottom: 32px;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .section-about-us__descr1 {
+        padding: 53px 91px 50px 50px;
+        margin: 0;
+    }
+
+    /* WORK */
+
+    .section-work__item:not(:last-child) {
+        margin-right: 85px;
+    }
+
+    .section-work__right-img {
+        position: relative;
+        background: none;
+    }
+
+    .section-work__right-img::before {
+        content: "";
+        display: block;
+        height: calc(100% - 4px);
+        background-image: url(../img/laptop.jpg);
+        background-size: cover;
+        background-position: center;
+        width: calc(50% - 25px);
+        position: absolute;
+        right: 0;
+        top: 4px;
+    }
+
+    .section-work__right-img1 {
+        position: relative;
+        background: none;
+    }
+
+    .section-work__right-img1::before {
+        content: "";
+        display: block;
+        height: calc(100% - 4px);
+        background-image: url(../img/right-pic1.jpg);
+        background-size: cover;
+        background-position: center;
+        width: calc(50% - 25px);
+        position: absolute;
+        right: 0;
+        top: 4px;
+    }
+
+    .section-work__right-img2 {
+        position: relative;
+        background: none;
+    }
+
+    .section-work__right-img2::before {
+        content: "";
+        display: block;
+        height: calc(100% - 4px);
+        background-image: url(../img/right-pic2.jpg);
+        background-size: cover;
+        background-position: center;
+        width: calc(50% - 25px);
+        position: absolute;
+        right: 0;
+        top: 4px;
+    }
+
+    .section-work__right-img3 {
+        position: relative;
+        background: none;
+    }
+
+    .section-work__right-img3::before {
+        content: "";
+        display: block;
+        height: calc(100% - 4px);
+        background-image: url(../img/right-pic3.jpg);
+        background-size: cover;
+        background-position: center;
+        width: calc(50% - 25px);
+        position: absolute;
+        right: 0;
+        top: 4px;
+    }
+
+    .section-work__title-h3 {
+        margin-bottom: 8px;
+    }
+
+    .section-work__text {
+        margin-top: 0;
+        margin-bottom: 25px;
+        width: 50%;
+        padding-right: 25px;
+    }
+
+    /* QUESTIONS */
+
+    .ui-accordion .ui-accordion-header {
+        font-size: 20px;
+    }
+
+    .questions-title {
+        padding-right: 144px;
+    }
+
+    /* FOOTER */
+
+    .section-footer__form-inner {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .section-footer__form-btn {
+        padding: 21px 0 39px 0;
+        max-width: 269px;
+        width: auto;
+        flex-grow: 2;
+    }
+
+    .section-footer__form-label {
+        flex-grow: 1;
+    }
+}
