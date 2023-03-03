@@ -1,0 +1,41 @@
+/* FOOTER */
+
+@media (max-width: 1359px) {
+  .section-footer {
+    padding-bottom: 0;
+  }
+
+  .section-footer__column1 {
+    margin-right: 107px;
+  }
+
+  .section-footer__column3 {
+    display: none;
+  }
+
+  .footer-icon svg {
+    width: 60px;
+  }
+
+  .section-footer__form__input {
+    width: 100%;
+  }
+
+  .section-footer__form-area {
+    margin-bottom: 32px;
+    width: 100%;
+  }
+
+  .footer-icon {
+    margin-right: 45px;
+  }
+
+  .section-footer__list1 {
+    margin-bottom: 80px;
+  }
+
+  .section-footer__checkbox-text,
+  .section-footer__checkbox-text::before {
+    top: 0;
+  }
+}
